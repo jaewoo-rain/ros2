@@ -1,0 +1,4 @@
+[console_scripts]
+ex_pub_node_py = ros2_python.publisher:main
+ex_sub_node_py = ros2_python.subscriber:main
+
