@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target subscriber[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[ 75%] Built target subscriber
+[100%] [32m[1mLinking CXX executable publisher[0m
+[100%] Built target publisher
+-- Install configuration: ""
+-- Installing: /home/jaewoo/ros2_ws/install/ros2_cmake/lib/ros2_cmake/publisher
+-- Set runtime path of "/home/jaewoo/ros2_ws/install/ros2_cmake/lib/ros2_cmake/publisher" to ""
+-- Installing: /home/jaewoo/ros2_ws/install/ros2_cmake/lib/ros2_cmake/subscriber
+-- Set runtime path of "/home/jaewoo/ros2_ws/install/ros2_cmake/lib/ros2_cmake/subscriber" to ""
+-- Installing: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ament_index/resource_index/package_run_dependencies/ros2_cmake
+-- Installing: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ament_index/resource_index/parent_prefix_path/ros2_cmake
+-- Installing: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/environment/ament_prefix_path.sh
+-- Installing: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/environment/ament_prefix_path.dsv
+-- Installing: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/environment/path.sh
+-- Installing: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/environment/path.dsv
+-- Installing: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/local_setup.bash
+-- Installing: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/local_setup.sh
+-- Installing: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/local_setup.zsh
+-- Installing: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/local_setup.dsv
+-- Installing: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/package.dsv
+-- Installing: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ament_index/resource_index/packages/ros2_cmake
+-- Installing: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/cmake/ros2_cmakeConfig.cmake
+-- Installing: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/cmake/ros2_cmakeConfig-version.cmake
+-- Installing: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/package.xml

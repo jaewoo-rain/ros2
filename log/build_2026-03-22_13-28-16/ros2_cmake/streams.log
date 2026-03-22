@@ -1,0 +1,64 @@
+[0.005s] Invoking command in '/home/jaewoo/ros2_ws/build/ros2_cmake': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jaewoo/ros2_ws/build/ros2_cmake -- -j28 -l28
+[0.032s] [35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[0.032s] [35m[1mConsolidate compiler generated dependencies of target subscriber[0m
+[0.044s] [ 25%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[0.046s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[0.987s] In file included from [01m[K/home/jaewoo/ros2_ws/src/ros2_cmake/src/publisher.cpp:1[m[K:
+[0.987s] [01m[K/home/jaewoo/ros2_ws/src/ros2_cmake/include/ros2_cmake/publisher.hpp:30:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ was not declared in this scope
+[0.987s]    30 |         rclcpp::Publisher<[01;31m[Kgeometry_msgs[m[K::msg::String>::SharedPtr publisher_;
+[0.987s]       |                           [01;31m[K^~~~~~~~~~~~~[m[K
+[0.987s] [01m[K/home/jaewoo/ros2_ws/src/ros2_cmake/include/ros2_cmake/publisher.hpp:30:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.987s]    30 |         rclcpp::Publisher<geometry_msgs::msg::String[01;31m[K>[m[K::SharedPtr publisher_;
+[0.987s]       |                                                     [01;31m[K^[m[K
+[0.987s] [01m[K/home/jaewoo/ros2_ws/src/ros2_cmake/include/ros2_cmake/publisher.hpp:30:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[0.987s]    30 |       rclcpp::Publisher<geometry_msgs::msg::String>::[01;31m[KSharedPtr[m[K publisher_;
+[0.987s]       |                                                      [01;31m[K^~~~~~~~~[m[K
+[0.987s]       |                                                               [32m[K;[m[K
+[0.987s] [01m[K/home/jaewoo/ros2_ws/src/ros2_cmake/include/ros2_cmake/publisher.hpp:30:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[0.987s]    30 | pp::Publisher<geometry_msgs::msg::String>::SharedPtr [01;31m[Kpublisher_[m[K;
+[0.987s]       |                                                      [01;31m[K^~~~~~~~~~[m[K
+[0.987s]       |                                                      [32m[Krmw_publisher_t[m[K
+[0.990s] [01m[K/home/jaewoo/ros2_ws/src/ros2_cmake/include/ros2_cmake/publisher.hpp:[m[K In constructor ‘[01m[KStringPublisher::StringPublisher(std::string, std::string)[m[K’:
+[0.990s] [01m[K/home/jaewoo/ros2_ws/src/ros2_cmake/include/ros2_cmake/publisher.hpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[0.990s]    16 |         [01;31m[Kpublisher_[m[K= this->create_publisher<geometry_msgs::msg::String>(topic_name,10); // Publisher 생성
+[0.990s]       |         [01;31m[K^~~~~~~~~~[m[K
+[0.991s]       |         [32m[Krmw_publisher_t[m[K
+[0.994s] [01m[K/home/jaewoo/ros2_ws/src/ros2_cmake/include/ros2_cmake/publisher.hpp:16:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ was not declared in this scope
+[0.994s]    16 |         publisher_= this->create_publisher<[01;31m[Kgeometry_msgs[m[K::msg::String>(topic_name,10); // Publisher 생성
+[0.994s]       |                                            [01;31m[K^~~~~~~~~~~~~[m[K
+[0.994s] [01m[K/home/jaewoo/ros2_ws/src/ros2_cmake/include/ros2_cmake/publisher.hpp:16:27:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[0.994s]    16 |         publisher_= this->[01;31m[Kcreate_publisher<geometry_msgs::msg::String>[m[K(topic_name,10); // Publisher 생성
+[0.994s]       |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.994s] [01m[K/home/jaewoo/ros2_ws/src/ros2_cmake/include/ros2_cmake/publisher.hpp:16:71:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KStringPublisher::create_publisher<<expression error> >(std::string&, int)[m[K’
+[0.994s]    16 | _= [01;31m[Kthis->create_publisher<geometry_msgs::msg::String>(topic_name,10)[m[K; // Publisher 생성
+[0.994s]       |    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[0.994s] 
+[0.994s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[0.994s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[0.994s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[0.994s]                  from [01m[K/home/jaewoo/ros2_ws/src/ros2_cmake/include/ros2_cmake/publisher.hpp:5[m[K,
+[0.994s]                  from [01m[K/home/jaewoo/ros2_ws/src/ros2_cmake/src/publisher.cpp:1[m[K:
+[0.994s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[0.994s]   195 |   [01;36m[Kcreate_publisher[m[K(
+[0.994s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[0.994s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.994s] In file included from [01m[K/home/jaewoo/ros2_ws/src/ros2_cmake/src/publisher.cpp:1[m[K:
+[0.994s] [01m[K/home/jaewoo/ros2_ws/src/ros2_cmake/include/ros2_cmake/publisher.hpp:16:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.994s]    16 | _= [01;31m[Kthis->create_publisher<geometry_msgs::msg::String>(topic_name,10)[m[K; // Publisher 생성
+[0.994s]       |    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[0.994s] 
+[0.998s] [01m[K/home/jaewoo/ros2_ws/src/ros2_cmake/include/ros2_cmake/publisher.hpp:[m[K In member function ‘[01m[Kvoid StringPublisher::timer_callback()[m[K’:
+[0.998s] [01m[K/home/jaewoo/ros2_ws/src/ros2_cmake/include/ros2_cmake/publisher.hpp:23:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ has not been declared
+[0.998s]    23 |         auto message = [01;31m[Kgeometry_msgs[m[K::msg::String();
+[0.998s]       |                        [01;31m[K^~~~~~~~~~~~~[m[K
+[1.001s] [01m[K/home/jaewoo/ros2_ws/src/ros2_cmake/include/ros2_cmake/publisher.hpp:26:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.001s]    26 |         [01;31m[Kpublisher_[m[K->publish(message);
+[1.001s]       |         [01;31m[K^~~~~~~~~~[m[K
+[1.001s]       |         [32m[Krmw_publisher_t[m[K
+[1.197s] gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/publisher.cpp.o] Error 1
+[1.198s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/publisher.dir/all] Error 2
+[1.198s] gmake[1]: *** Waiting for unfinished jobs....
+[3.402s] [ 75%] [32m[1mLinking CXX executable subscriber[0m
+[3.565s] [ 75%] Built target subscriber
+[3.565s] gmake: *** [Makefile:146: all] Error 2
+[3.567s] Invoked command in '/home/jaewoo/ros2_ws/build/ros2_cmake' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jaewoo/ros2_ws/build/ros2_cmake -- -j28 -l28

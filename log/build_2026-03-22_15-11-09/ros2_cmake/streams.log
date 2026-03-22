@@ -1,0 +1,28 @@
+[0.007s] Invoking command in '/home/jaewoo/ros2_ws/build/ros2_cmake': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jaewoo/ros2_ws/build/ros2_cmake -- -j28 -l28
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[0.088s] [ 50%] Built target subscriber
+[0.088s] [ 75%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[1.936s] [100%] [32m[1mLinking CXX executable publisher[0m
+[2.049s] [100%] Built target publisher
+[2.056s] Invoked command in '/home/jaewoo/ros2_ws/build/ros2_cmake' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jaewoo/ros2_ws/build/ros2_cmake -- -j28 -l28
+[2.062s] Invoking command in '/home/jaewoo/ros2_ws/build/ros2_cmake': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jaewoo/ros2_ws/build/ros2_cmake
+[2.068s] -- Install configuration: ""
+[2.068s] -- Installing: /home/jaewoo/ros2_ws/install/ros2_cmake/lib/ros2_cmake/publisher
+[2.069s] -- Set runtime path of "/home/jaewoo/ros2_ws/install/ros2_cmake/lib/ros2_cmake/publisher" to ""
+[2.070s] -- Up-to-date: /home/jaewoo/ros2_ws/install/ros2_cmake/lib/ros2_cmake/subscriber
+[2.070s] -- Up-to-date: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ament_index/resource_index/package_run_dependencies/ros2_cmake
+[2.070s] -- Up-to-date: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ament_index/resource_index/parent_prefix_path/ros2_cmake
+[2.070s] -- Up-to-date: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/environment/ament_prefix_path.sh
+[2.070s] -- Up-to-date: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/environment/ament_prefix_path.dsv
+[2.070s] -- Up-to-date: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/environment/path.sh
+[2.070s] -- Up-to-date: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/environment/path.dsv
+[2.070s] -- Up-to-date: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/local_setup.bash
+[2.070s] -- Up-to-date: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/local_setup.sh
+[2.070s] -- Up-to-date: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/local_setup.zsh
+[2.070s] -- Up-to-date: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/local_setup.dsv
+[2.071s] -- Installing: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/package.dsv
+[2.071s] -- Up-to-date: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ament_index/resource_index/packages/ros2_cmake
+[2.071s] -- Up-to-date: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/cmake/ros2_cmakeConfig.cmake
+[2.071s] -- Up-to-date: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/cmake/ros2_cmakeConfig-version.cmake
+[2.071s] -- Up-to-date: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/package.xml
+[2.072s] Invoked command in '/home/jaewoo/ros2_ws/build/ros2_cmake' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jaewoo/ros2_ws/build/ros2_cmake
