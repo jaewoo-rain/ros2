@@ -1,5 +1,7 @@
 /home/jaewoo/ros2_ws/install/ros2_cmake/lib/ros2_cmake/publisher
 /home/jaewoo/ros2_ws/install/ros2_cmake/lib/ros2_cmake/subscriber
+/home/jaewoo/ros2_ws/install/ros2_cmake/lib/ros2_cmake/service_server
+/home/jaewoo/ros2_ws/install/ros2_cmake/lib/ros2_cmake/service_client
 /home/jaewoo/ros2_ws/install/ros2_cmake/share/ament_index/resource_index/package_run_dependencies/ros2_cmake
 /home/jaewoo/ros2_ws/install/ros2_cmake/share/ament_index/resource_index/parent_prefix_path/ros2_cmake
 /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/environment/ament_prefix_path.sh

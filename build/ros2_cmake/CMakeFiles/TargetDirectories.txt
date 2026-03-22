@@ -2,6 +2,8 @@
 /home/jaewoo/ros2_ws/build/ros2_cmake/CMakeFiles/ros2_cmake_uninstall.dir
 /home/jaewoo/ros2_ws/build/ros2_cmake/CMakeFiles/publisher.dir
 /home/jaewoo/ros2_ws/build/ros2_cmake/CMakeFiles/subscriber.dir
+/home/jaewoo/ros2_ws/build/ros2_cmake/CMakeFiles/service_server.dir
+/home/jaewoo/ros2_ws/build/ros2_cmake/CMakeFiles/service_client.dir
 /home/jaewoo/ros2_ws/build/ros2_cmake/CMakeFiles/test.dir
 /home/jaewoo/ros2_ws/build/ros2_cmake/CMakeFiles/edit_cache.dir
 /home/jaewoo/ros2_ws/build/ros2_cmake/CMakeFiles/rebuild_cache.dir

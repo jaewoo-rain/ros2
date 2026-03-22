@@ -19,11 +19,23 @@ ament_target_dependencies(publisher rclcpp std_msgs) # 이 실행파일이 사�
 add_executable(subscriber src/subscriber.cpp)
 ament_target_dependencies(subscriber rclcpp std_msgs)
 
+find_package(ros2_interface REQUIRED)
+# service - server
+add_executable(service_server src/service_server.cpp)
+ament_target_dependencies(service_server rclcpp ros2_interface)
+
+# service - client
+add_executable(service_client src/service_client.cpp)
+ament_target_dependencies(service_client rclcpp ros2_interface)
+
 # 빌드된 실행파일을 install 폴더에 복사해서 ROS2가 실행할 수 있게 해라
 install(TARGETS
   # topic 실행 파일 이름
   publisher
   subscriber
+  # service
+  service_server
+  service_client
   DESTINATION lib/${PROJECT_NAME}
 )
 

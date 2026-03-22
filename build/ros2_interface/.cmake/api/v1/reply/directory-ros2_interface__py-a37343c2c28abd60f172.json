@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ros2_interface__py",
+		"source" : "/home/jaewoo/ros2_ws/build/ros2_interface/ros2_interface__py"
+	}
+}
