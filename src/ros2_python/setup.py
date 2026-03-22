@@ -26,6 +26,8 @@ setup(
         'console_scripts': [ # 실행 파일
             'ex_pub_node_py = ros2_python.publisher:main',
             'ex_sub_node_py = ros2_python.subscriber:main',
+            'service_server = ros2_python.service_server:main',
+            'service_client = ros2_python.service_client:main',
         ],
     },
 )

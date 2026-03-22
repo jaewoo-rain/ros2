@@ -1,17 +1,16 @@
-#include "rclcpp/rclcpp.hpp"                     // ROS2 C++ API
-#include "ros2_interface/srv/ex_custom_srv.hpp" // 우리가 만든 서비스 타입
-#include <chrono>                               // 시간 관련 (1s 같은 것)
-#include <cstdlib>                              // atoll() 사용
-#include <memory>                               // smart pointer
+#include "rclcpp/rclcpp.hpp"
+#include "ros2_interface/srv/ex_custom_srv.hpp"
+#include <chrono>
+#include <cstdlib>
+#include <memory>
 
-using namespace std::chrono_literals;           // 1s, 500ms 같은 표현 사용 가능
+using namespace std::chrono_literals;
 
 int main(int argc, char **argv)
 {
-    // ROS2 초기화 (필수)
     rclcpp::init(argc, argv);
 
-    // 실행 시 인자 체크 (예: ros2 run ... 3 5)
+    // 실행 시 인자 체크
     if (argc != 3) {
         RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "usage: add_two_ints_client X Y");
         return 1;
@@ -26,12 +25,12 @@ int main(int argc, char **argv)
     rclcpp::Client<ros2_interface::srv::ExCustomSrv>::SharedPtr client =
         node->create_client<ros2_interface::srv::ExCustomSrv>("add_two_ints");
 
-    // 요청(request) 객체 생성
+    // 요청 객체 생성
     auto request = std::make_shared<ros2_interface::srv::ExCustomSrv::Request>();
 
     // 입력값을 숫자로 변환해서 request에 넣기
-    request->a = atoll(argv[1]);  // 첫 번째 입력값
-    request->b = atoll(argv[2]);  // 두 번째 입력값
+    request->a = atoll(argv[1]);
+    request->b = atoll(argv[2]);
 
     // 서비스 서버가 준비될 때까지 기다림
     while (!client->wait_for_service(1s)) {
@@ -50,7 +49,7 @@ int main(int argc, char **argv)
     // 비동기 요청 보내기
     auto result = client->async_send_request(request);
 
-    // 결과 올 때까지 대기 (spin)
+    // 결과 올 때까지 대기
     if (rclcpp::spin_until_future_complete(node, result) == rclcpp::FutureReturnCode::SUCCESS)
     {
         // 결과 출력 (sum 값)

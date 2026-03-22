@@ -10,6 +10,7 @@
   <!-- 빌드 필요 없어서 exec_depend 사용 -->
   <exec_depend>rclpy</exec_depend>
   <exec_depend>std_msgs</exec_depend>
+  <exec_depend>ros2_interface</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

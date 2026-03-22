@@ -11,6 +11,8 @@ setup.py
 resource/ros2_python
 ros2_python/__init__.py
 ros2_python/publisher.py
+ros2_python/service_client.py
+ros2_python/service_server.py
 ros2_python/subscriber.py
 test/test_copyright.py
 test/test_flake8.py
