@@ -11,10 +11,11 @@ find_package(ament_cmake REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
-# 추가
+
 find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "srv/ExCustomSrv.srv"
+  "srv/ExCustomSrv.srv" # service 추가
+  "action/Fibonacci.action" # action 추가
   DEPENDENCIES
 )
 

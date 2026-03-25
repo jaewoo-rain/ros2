@@ -1,6 +1,7 @@
 {
   "package_name": "ros2_interface",
   "non_idl_tuples": [
-    "/home/jaewoo/ros2_ws/src/ros2_interface:srv/ExCustomSrv.srv"
+    "/home/jaewoo/ros2_ws/src/ros2_interface:srv/ExCustomSrv.srv",
+    "/home/jaewoo/ros2_ws/src/ros2_interface:action/Fibonacci.action"
   ]
 }

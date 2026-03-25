@@ -1,0 +1,71 @@
+[0.008s] Invoking command in '/home/jaewoo/ros2_ws/build/ros2_cmake': CMAKE_PREFIX_PATH=/home/jaewoo/ros2_ws/install/ros2_interface:/home/jaewoo/ros2_ws/install/ros2_cmake:/home/jaewoo/ros2_ws/install/ros2_python:/opt/ros/humble /usr/bin/cmake --build /home/jaewoo/ros2_ws/build/ros2_cmake -- -j28 -l28
+[0.025s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.109s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.128s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.129s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.132s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.136s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.141s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.155s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.156s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.204s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.228s] -- Found ros2_interface: 0.0.0 (/home/jaewoo/ros2_ws/install/ros2_interface/share/ros2_interface/cmake)
+[0.244s] -- Found rclcpp_action: 16.0.18 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.249s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.280s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.280s] -- Configured cppcheck include dirs: /home/jaewoo/ros2_ws/src/ros2_cmake/include
+[0.280s] -- Configured cppcheck exclude dirs and/or files: 
+[0.281s] -- Added test 'lint_cmake' to check CMake code style
+[0.281s] -- Added test 'uncrustify' to check C / C++ code style
+[0.281s] -- Configured uncrustify additional arguments: 
+[0.281s] -- Added test 'xmllint' to check XML markup files
+[0.281s] -- Configuring done
+[0.291s] -- Generating done
+[0.296s] -- Build files have been written to: /home/jaewoo/ros2_ws/build/ros2_cmake
+[0.310s] [35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[0.311s] [35m[1mConsolidate compiler generated dependencies of target service_client[0m
+[0.312s] [35m[1mConsolidate compiler generated dependencies of target subscriber[0m
+[0.313s] [35m[1mConsolidate compiler generated dependencies of target service_server[0m
+[0.319s] [  8%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o[0m
+[0.320s] [ 25%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o[0m
+[0.320s] [ 33%] Built target publisher
+[0.321s] [ 41%] [32mBuilding CXX object CMakeFiles/service_client.dir/src/service_client.cpp.o[0m
+[0.322s] [ 58%] Built target subscriber
+[0.324s] [ 66%] [32mBuilding CXX object CMakeFiles/service_server.dir/src/service_server.cpp.o[0m
+[1.764s] [ 75%] [32m[1mLinking CXX executable service_server[0m
+[1.833s] [ 75%] Built target service_server
+[1.846s] [ 83%] [32m[1mLinking CXX executable service_client[0m
+[1.919s] [ 83%] Built target service_client
+[1.986s] [ 91%] [32m[1mLinking CXX executable action_server[0m
+[2.065s] [ 91%] Built target action_server
+[2.101s] [100%] [32m[1mLinking CXX executable action_client[0m
+[2.186s] [100%] Built target action_client
+[2.192s] Invoked command in '/home/jaewoo/ros2_ws/build/ros2_cmake' returned '0': CMAKE_PREFIX_PATH=/home/jaewoo/ros2_ws/install/ros2_interface:/home/jaewoo/ros2_ws/install/ros2_cmake:/home/jaewoo/ros2_ws/install/ros2_python:/opt/ros/humble /usr/bin/cmake --build /home/jaewoo/ros2_ws/build/ros2_cmake -- -j28 -l28
+[2.198s] Invoking command in '/home/jaewoo/ros2_ws/build/ros2_cmake': CMAKE_PREFIX_PATH=/home/jaewoo/ros2_ws/install/ros2_interface:/home/jaewoo/ros2_ws/install/ros2_cmake:/home/jaewoo/ros2_ws/install/ros2_python:/opt/ros/humble /usr/bin/cmake --install /home/jaewoo/ros2_ws/build/ros2_cmake
+[2.204s] -- Install configuration: ""
+[2.205s] -- Up-to-date: /home/jaewoo/ros2_ws/install/ros2_cmake/lib/ros2_cmake/publisher
+[2.205s] -- Up-to-date: /home/jaewoo/ros2_ws/install/ros2_cmake/lib/ros2_cmake/subscriber
+[2.206s] -- Installing: /home/jaewoo/ros2_ws/install/ros2_cmake/lib/ros2_cmake/service_server
+[2.206s] -- Set runtime path of "/home/jaewoo/ros2_ws/install/ros2_cmake/lib/ros2_cmake/service_server" to ""
+[2.207s] -- Installing: /home/jaewoo/ros2_ws/install/ros2_cmake/lib/ros2_cmake/service_client
+[2.208s] -- Set runtime path of "/home/jaewoo/ros2_ws/install/ros2_cmake/lib/ros2_cmake/service_client" to ""
+[2.208s] -- Installing: /home/jaewoo/ros2_ws/install/ros2_cmake/lib/ros2_cmake/action_server
+[2.208s] -- Set runtime path of "/home/jaewoo/ros2_ws/install/ros2_cmake/lib/ros2_cmake/action_server" to ""
+[2.208s] -- Installing: /home/jaewoo/ros2_ws/install/ros2_cmake/lib/ros2_cmake/action_client
+[2.209s] -- Set runtime path of "/home/jaewoo/ros2_ws/install/ros2_cmake/lib/ros2_cmake/action_client" to ""
+[2.209s] -- Installing: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ament_index/resource_index/package_run_dependencies/ros2_cmake
+[2.209s] -- Installing: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ament_index/resource_index/parent_prefix_path/ros2_cmake
+[2.209s] -- Up-to-date: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/environment/ament_prefix_path.sh
+[2.209s] -- Installing: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/environment/ament_prefix_path.dsv
+[2.210s] -- Up-to-date: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/environment/path.sh
+[2.210s] -- Installing: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/environment/path.dsv
+[2.210s] -- Up-to-date: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/local_setup.bash
+[2.210s] -- Up-to-date: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/local_setup.sh
+[2.210s] -- Up-to-date: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/local_setup.zsh
+[2.210s] -- Installing: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/local_setup.dsv
+[2.210s] -- Installing: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/package.dsv
+[2.210s] -- Up-to-date: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ament_index/resource_index/packages/ros2_cmake
+[2.210s] -- Up-to-date: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/cmake/ros2_cmakeConfig.cmake
+[2.210s] -- Up-to-date: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/cmake/ros2_cmakeConfig-version.cmake
+[2.210s] -- Installing: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/package.xml
+[2.211s] Invoked command in '/home/jaewoo/ros2_ws/build/ros2_cmake' returned '0': CMAKE_PREFIX_PATH=/home/jaewoo/ros2_ws/install/ros2_interface:/home/jaewoo/ros2_ws/install/ros2_cmake:/home/jaewoo/ros2_ws/install/ros2_python:/opt/ros/humble /usr/bin/cmake --install /home/jaewoo/ros2_ws/build/ros2_cmake

@@ -11,22 +11,31 @@ find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 include_directories(include)
 
+# == topic == #
 # topic - publisher
 add_executable(publisher src/publisher.cpp) # 컴파일해서 실행파일(프로그램)을 만들겠다
 ament_target_dependencies(publisher rclcpp std_msgs) # 이 실행파일이 사용할 ROS2 라이브러리들을 연결(link)
-
 # topic - subscriber
 add_executable(subscriber src/subscriber.cpp)
 ament_target_dependencies(subscriber rclcpp std_msgs)
 
+# === server === #
 find_package(ros2_interface REQUIRED)
 # service - server
 add_executable(service_server src/service_server.cpp)
 ament_target_dependencies(service_server rclcpp ros2_interface)
-
 # service - client
 add_executable(service_client src/service_client.cpp)
 ament_target_dependencies(service_client rclcpp ros2_interface)
+
+# === action === #
+find_package(rclcpp_action REQUIRED)
+# action - server
+add_executable(action_server src/action_server.cpp)
+ament_target_dependencies(action_server rclcpp ros2_interface rclcpp_action)
+# action - client
+add_executable(action_client src/action_client.cpp)
+ament_target_dependencies(action_client rclcpp ros2_interface rclcpp_action)
 
 # 빌드된 실행파일을 install 폴더에 복사해서 ROS2가 실행할 수 있게 해라
 install(TARGETS
@@ -36,6 +45,9 @@ install(TARGETS
   # service
   service_server
   service_client
+  # action
+  action_server
+  action_client
   DESTINATION lib/${PROJECT_NAME}
 )
 

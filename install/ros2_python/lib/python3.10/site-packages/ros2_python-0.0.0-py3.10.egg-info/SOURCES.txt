@@ -10,6 +10,8 @@ setup.py
 ../../build/ros2_python/ros2_python.egg-info/zip-safe
 resource/ros2_python
 ros2_python/__init__.py
+ros2_python/action_client.py
+ros2_python/action_server.py
 ros2_python/publisher.py
 ros2_python/service_client.py
 ros2_python/service_server.py

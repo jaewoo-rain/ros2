@@ -28,6 +28,8 @@ setup(
             'ex_sub_node_py = ros2_python.subscriber:main',
             'service_server = ros2_python.service_server:main',
             'service_client = ros2_python.service_client:main',
+            'action_server = ros2_python.action_server:main',
+            'action_client = ros2_python.action_client:main'
         ],
     },
 )

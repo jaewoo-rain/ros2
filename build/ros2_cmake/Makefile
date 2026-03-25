@@ -249,6 +249,80 @@ service_client/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/service_client.dir/build.make CMakeFiles/service_client.dir/build
 .PHONY : service_client/fast
 
+#=============================================================================
+# Target rules for targets named action_server
+
+# Build rule for target.
+action_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 action_server
+.PHONY : action_server
+
+# fast build rule for target.
+action_server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/action_server.dir/build.make CMakeFiles/action_server.dir/build
+.PHONY : action_server/fast
+
+#=============================================================================
+# Target rules for targets named action_client
+
+# Build rule for target.
+action_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 action_client
+.PHONY : action_client
+
+# fast build rule for target.
+action_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/action_client.dir/build.make CMakeFiles/action_client.dir/build
+.PHONY : action_client/fast
+
+src/action_client.o: src/action_client.cpp.o
+.PHONY : src/action_client.o
+
+# target to build an object file
+src/action_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/action_client.dir/build.make CMakeFiles/action_client.dir/src/action_client.cpp.o
+.PHONY : src/action_client.cpp.o
+
+src/action_client.i: src/action_client.cpp.i
+.PHONY : src/action_client.i
+
+# target to preprocess a source file
+src/action_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/action_client.dir/build.make CMakeFiles/action_client.dir/src/action_client.cpp.i
+.PHONY : src/action_client.cpp.i
+
+src/action_client.s: src/action_client.cpp.s
+.PHONY : src/action_client.s
+
+# target to generate assembly for a file
+src/action_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/action_client.dir/build.make CMakeFiles/action_client.dir/src/action_client.cpp.s
+.PHONY : src/action_client.cpp.s
+
+src/action_server.o: src/action_server.cpp.o
+.PHONY : src/action_server.o
+
+# target to build an object file
+src/action_server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/action_server.dir/build.make CMakeFiles/action_server.dir/src/action_server.cpp.o
+.PHONY : src/action_server.cpp.o
+
+src/action_server.i: src/action_server.cpp.i
+.PHONY : src/action_server.i
+
+# target to preprocess a source file
+src/action_server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/action_server.dir/build.make CMakeFiles/action_server.dir/src/action_server.cpp.i
+.PHONY : src/action_server.cpp.i
+
+src/action_server.s: src/action_server.cpp.s
+.PHONY : src/action_server.s
+
+# target to generate assembly for a file
+src/action_server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/action_server.dir/build.make CMakeFiles/action_server.dir/src/action_server.cpp.s
+.PHONY : src/action_server.cpp.s
+
 src/publisher.o: src/publisher.cpp.o
 .PHONY : src/publisher.o
 
@@ -360,10 +434,18 @@ help:
 	@echo "... test"
 	@echo "... ros2_cmake_uninstall"
 	@echo "... uninstall"
+	@echo "... action_client"
+	@echo "... action_server"
 	@echo "... publisher"
 	@echo "... service_client"
 	@echo "... service_server"
 	@echo "... subscriber"
+	@echo "... src/action_client.o"
+	@echo "... src/action_client.i"
+	@echo "... src/action_client.s"
+	@echo "... src/action_server.o"
+	@echo "... src/action_server.i"
+	@echo "... src/action_server.s"
 	@echo "... src/publisher.o"
 	@echo "... src/publisher.i"
 	@echo "... src/publisher.s"

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ros2_interface__rosidl_generator_py.dir/rosidl_generator_py/ros2_interface/action/_fibonacci_s.c.o"
+  "CMakeFiles/ros2_interface__rosidl_generator_py.dir/rosidl_generator_py/ros2_interface/action/_fibonacci_s.c.o.d"
   "CMakeFiles/ros2_interface__rosidl_generator_py.dir/rosidl_generator_py/ros2_interface/srv/_ex_custom_srv_s.c.o"
   "CMakeFiles/ros2_interface__rosidl_generator_py.dir/rosidl_generator_py/ros2_interface/srv/_ex_custom_srv_s.c.o.d"
   "rosidl_generator_py/ros2_interface/libros2_interface__rosidl_generator_py.pdb"
