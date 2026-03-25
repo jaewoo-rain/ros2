@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<robot name="dof3_manipulator">
+
+    <!-- ================== base 링크 ================== -->
+    <link name="base_link">
+        <visual>
+            <!-- 위치 (z축으로 0.1 위에 배치) -->
+            <origin xyz="0 0 0.1" rpy="0 0 0"/>
+
+            <!-- 박스 형태 -->
+            <geometry>
+                <box size="0.05 0.05 0.2"/>
+            </geometry>
+        </visual>
+    </link>
+
+
+    <!-- ================== Joint1 ================== -->
+    <joint name="Joint1" type="revolute">
+        <!-- base_link 위에 연결 -->
+        <origin xyz="0 0 0.225" rpy="0 0 0"/>
+
+        <!-- 회전축 (x축 기준 회전) -->
+        <axis xyz="1 0 0"/>
+
+        <!-- 부모/자식 링크 -->
+        <parent link="base_link"/>
+        <child link="Link1"/>
+
+        <!-- 회전 제한 -->
+        <limit effort="30" velocity="1" lower="-3.14" upper="3.14"/>
+    </joint>
+
+
+    <!-- ================== Link1 ================== -->
+    <link name="Link1">
+        <visual>
+            <!-- 링크 중심 위치 -->
+            <origin xyz="0 0 0.125" rpy="0 0 0"/>
+
+            <geometry>
+                <box size="0.05 0.05 0.2"/>
+            </geometry>
+        </visual>
+    </link>
+
+
+    <!-- ================== Joint2 ================== -->
+    <joint name="Joint2" type="revolute">
+        <origin xyz="0 0 0.25" rpy="0 0 0"/>
+        <axis xyz="1 0 0"/>
+
+        <parent link="Link1"/>
+        <child link="Link2"/>
+
+        <limit effort="30" velocity="1" lower="-3.14" upper="3.14"/>
+    </joint>
+
+
+    <!-- ================== Link2 ================== -->
+    <link name="Link2">
+        <visual>
+            <origin xyz="0 0 0.125" rpy="0 0 0"/>
+
+            <geometry>
+                <box size="0.05 0.05 0.2"/>
+            </geometry>
+        </visual>
+    </link>
+
+
+    <!-- ================== Joint3 ================== -->
+    <joint name="Joint3" type="revolute">
+        <origin xyz="0 0 0.25" rpy="0 0 0"/>
+        <axis xyz="1 0 0"/>
+
+        <parent link="Link2"/>
+        <child link="Link3"/>
+
+        <limit effort="30" velocity="1" lower="-3.14" upper="3.14"/>
+    </joint>
+
+
+    <!-- ================== Link3 ================== -->
+    <link name="Link3">
+        <visual>
+            <origin xyz="0 0 0.125" rpy="0 0 0"/>
+
+            <geometry>
+                <box size="0.05 0.05 0.2"/>
+            </geometry>
+        </visual>
+    </link>
+
+</robot>
