@@ -1,4 +1,0 @@
-Invoking command in '/home/jaewoo/ros2_ws/build/ros2_cmake': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jaewoo/ros2_ws/src/ros2_cmake -DCMAKE_INSTALL_PREFIX=/home/jaewoo/ros2_ws/install/ros2_cmake
-Invoked command in '/home/jaewoo/ros2_ws/build/ros2_cmake' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jaewoo/ros2_ws/src/ros2_cmake -DCMAKE_INSTALL_PREFIX=/home/jaewoo/ros2_ws/install/ros2_cmake
-Invoking command in '/home/jaewoo/ros2_ws/build/ros2_cmake': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jaewoo/ros2_ws/build/ros2_cmake -- -j28 -l28
-Invoked command in '/home/jaewoo/ros2_ws/build/ros2_cmake' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jaewoo/ros2_ws/build/ros2_cmake -- -j28 -l28

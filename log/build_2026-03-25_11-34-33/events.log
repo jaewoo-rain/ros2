@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000103] (-) JobUnselected: {'identifier': 'ros2_cmake'}
+[0.000157] (-) JobUnselected: {'identifier': 'ros2_interface'}
+[0.000175] (ros2_python) JobQueued: {'identifier': 'ros2_python', 'dependencies': OrderedDict([('ros2_interface', '/home/jaewoo/ros2_ws/install/ros2_interface')])}
+[0.000193] (ros2_python) JobStarted: {'identifier': 'ros2_python'}
+[0.002372] (ros2_python) JobEnded: {'identifier': 'ros2_python', 'rc': 1}
+[0.012524] (-) EventReactorShutdown: {}

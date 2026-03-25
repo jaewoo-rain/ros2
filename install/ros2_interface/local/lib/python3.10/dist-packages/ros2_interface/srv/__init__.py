@@ -1,1 +1,1 @@
-from ros2_interface.srv._ex_custom_srv import ExCustomSrv  # noqa: F401
+/home/jaewoo/ros2_ws/build/ros2_interface/rosidl_generator_py/ros2_interface/srv/__init__.py

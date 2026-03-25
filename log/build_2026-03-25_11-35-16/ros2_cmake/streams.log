@@ -1,0 +1,100 @@
+[0.005s] Invoking command in '/home/jaewoo/ros2_ws/build/ros2_cmake': CMAKE_PREFIX_PATH=/home/jaewoo/ros2_ws/install/ros2_interface:/home/jaewoo/ros2_ws/install/ros2_cmake:/home/jaewoo/ros2_ws/install/ros2_python:/opt/ros/humble /usr/bin/cmake /home/jaewoo/ros2_ws/src/ros2_cmake -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jaewoo/ros2_ws/install/ros2_cmake
+[0.042s] -- The C compiler identification is GNU 11.4.0
+[0.070s] -- The CXX compiler identification is GNU 11.4.0
+[0.073s] -- Detecting C compiler ABI info
+[0.109s] -- Detecting C compiler ABI info - done
+[0.112s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.112s] -- Detecting C compile features
+[0.113s] -- Detecting C compile features - done
+[0.114s] -- Detecting CXX compiler ABI info
+[0.159s] -- Detecting CXX compiler ABI info - done
+[0.162s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.162s] -- Detecting CXX compile features
+[0.163s] -- Detecting CXX compile features - done
+[0.163s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.254s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.285s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.296s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.313s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.315s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.319s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.324s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.331s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.349s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.350s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.397s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.413s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.435s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.439s] -- Looking for pthread.h
+[0.478s] -- Looking for pthread.h - found
+[0.478s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.519s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.520s] -- Found Threads: TRUE  
+[0.543s] -- Found ros2_interface: 0.0.0 (/home/jaewoo/ros2_ws/install/ros2_interface/share/ros2_interface/cmake)
+[0.561s] -- Found rclcpp_action: 16.0.18 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.567s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.602s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.603s] -- Configured cppcheck include dirs: /home/jaewoo/ros2_ws/src/ros2_cmake/include
+[0.603s] -- Configured cppcheck exclude dirs and/or files: 
+[0.603s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.603s] -- Added test 'lint_cmake' to check CMake code style
+[0.603s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.604s] -- Added test 'uncrustify' to check C / C++ code style
+[0.604s] -- Configured uncrustify additional arguments: 
+[0.604s] -- Added test 'xmllint' to check XML markup files
+[0.604s] -- Configuring done
+[0.616s] -- Generating done
+[0.620s] -- Build files have been written to: /home/jaewoo/ros2_ws/build/ros2_cmake
+[0.626s] Invoked command in '/home/jaewoo/ros2_ws/build/ros2_cmake' returned '0': CMAKE_PREFIX_PATH=/home/jaewoo/ros2_ws/install/ros2_interface:/home/jaewoo/ros2_ws/install/ros2_cmake:/home/jaewoo/ros2_ws/install/ros2_python:/opt/ros/humble /usr/bin/cmake /home/jaewoo/ros2_ws/src/ros2_cmake -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jaewoo/ros2_ws/install/ros2_cmake
+[0.627s] Invoking command in '/home/jaewoo/ros2_ws/build/ros2_cmake': CMAKE_PREFIX_PATH=/home/jaewoo/ros2_ws/install/ros2_interface:/home/jaewoo/ros2_ws/install/ros2_cmake:/home/jaewoo/ros2_ws/install/ros2_python:/opt/ros/humble /usr/bin/cmake --build /home/jaewoo/ros2_ws/build/ros2_cmake -- -j28 -l28
+[0.657s] [  7%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[0.658s] [ 14%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[0.658s] [ 21%] [32mBuilding CXX object CMakeFiles/param_client.dir/src/param_client.cpp.o[0m
+[0.659s] [ 28%] [32mBuilding CXX object CMakeFiles/service_server.dir/src/service_server.cpp.o[0m
+[0.660s] [ 35%] [32mBuilding CXX object CMakeFiles/service_client.dir/src/service_client.cpp.o[0m
+[0.660s] [ 42%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o[0m
+[0.660s] [ 50%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o[0m
+[2.172s] [ 57%] [32m[1mLinking CXX executable service_server[0m
+[2.243s] [ 57%] Built target service_server
+[2.252s] [ 64%] [32m[1mLinking CXX executable service_client[0m
+[2.266s] [ 71%] [32m[1mLinking CXX executable param_client[0m
+[2.334s] [ 71%] Built target service_client
+[2.341s] [ 71%] Built target param_client
+[2.440s] [ 78%] [32m[1mLinking CXX executable action_server[0m
+[2.516s] [ 78%] Built target action_server
+[2.549s] [ 85%] [32m[1mLinking CXX executable action_client[0m
+[2.602s] [ 92%] [32m[1mLinking CXX executable publisher[0m
+[2.632s] [ 92%] Built target action_client
+[2.688s] [ 92%] Built target publisher
+[4.267s] [100%] [32m[1mLinking CXX executable subscriber[0m
+[4.442s] [100%] Built target subscriber
+[4.450s] Invoked command in '/home/jaewoo/ros2_ws/build/ros2_cmake' returned '0': CMAKE_PREFIX_PATH=/home/jaewoo/ros2_ws/install/ros2_interface:/home/jaewoo/ros2_ws/install/ros2_cmake:/home/jaewoo/ros2_ws/install/ros2_python:/opt/ros/humble /usr/bin/cmake --build /home/jaewoo/ros2_ws/build/ros2_cmake -- -j28 -l28
+[4.451s] Invoking command in '/home/jaewoo/ros2_ws/build/ros2_cmake': CMAKE_PREFIX_PATH=/home/jaewoo/ros2_ws/install/ros2_interface:/home/jaewoo/ros2_ws/install/ros2_cmake:/home/jaewoo/ros2_ws/install/ros2_python:/opt/ros/humble /usr/bin/cmake --install /home/jaewoo/ros2_ws/build/ros2_cmake
+[4.455s] -- Install configuration: ""
+[4.455s] -- Execute custom install script
+[4.455s] -- Symlinking: /home/jaewoo/ros2_ws/install/ros2_cmake/lib/ros2_cmake/publisher
+[4.462s] -- Symlinking: /home/jaewoo/ros2_ws/install/ros2_cmake/lib/ros2_cmake/subscriber
+[4.472s] -- Symlinking: /home/jaewoo/ros2_ws/install/ros2_cmake/lib/ros2_cmake/service_server
+[4.484s] -- Symlinking: /home/jaewoo/ros2_ws/install/ros2_cmake/lib/ros2_cmake/service_client
+[4.490s] -- Symlinking: /home/jaewoo/ros2_ws/install/ros2_cmake/lib/ros2_cmake/action_server
+[4.495s] -- Symlinking: /home/jaewoo/ros2_ws/install/ros2_cmake/lib/ros2_cmake/action_client
+[4.500s] -- Symlinking: /home/jaewoo/ros2_ws/install/ros2_cmake/lib/ros2_cmake/param_client
+[4.506s] -- Symlinking: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/launch/param_launch.py
+[4.510s] -- Symlinking: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/launch/topic_launch.py
+[4.515s] -- Symlinking: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/config/param.yaml
+[4.523s] -- Symlinking: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ament_index/resource_index/package_run_dependencies/ros2_cmake
+[4.532s] -- Symlinking: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ament_index/resource_index/parent_prefix_path/ros2_cmake
+[4.537s] -- Symlinking: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/environment/ament_prefix_path.sh
+[4.544s] -- Symlinking: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/environment/ament_prefix_path.dsv
+[4.554s] -- Symlinking: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/environment/path.sh
+[4.559s] -- Symlinking: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/environment/path.dsv
+[4.565s] -- Symlinking: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/local_setup.bash
+[4.572s] -- Symlinking: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/local_setup.sh
+[4.576s] -- Symlinking: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/local_setup.zsh
+[4.581s] -- Symlinking: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/local_setup.dsv
+[4.589s] -- Symlinking: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/package.dsv
+[4.597s] -- Symlinking: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ament_index/resource_index/packages/ros2_cmake
+[4.605s] -- Symlinking: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/cmake/ros2_cmakeConfig.cmake
+[4.616s] -- Symlinking: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/cmake/ros2_cmakeConfig-version.cmake
+[4.631s] -- Symlinking: /home/jaewoo/ros2_ws/install/ros2_cmake/share/ros2_cmake/package.xml
+[4.646s] Invoked command in '/home/jaewoo/ros2_ws/build/ros2_cmake' returned '0': CMAKE_PREFIX_PATH=/home/jaewoo/ros2_ws/install/ros2_interface:/home/jaewoo/ros2_ws/install/ros2_cmake:/home/jaewoo/ros2_ws/install/ros2_python:/opt/ros/humble /usr/bin/cmake --install /home/jaewoo/ros2_ws/build/ros2_cmake

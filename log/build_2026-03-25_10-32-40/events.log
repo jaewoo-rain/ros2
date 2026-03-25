@@ -1,5 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000311] (-) JobUnselected: {'identifier': 'ros2_cmake'}
-[0.000390] (-) JobUnselected: {'identifier': 'ros2_interface'}
-[0.000407] (-) JobUnselected: {'identifier': 'ros2_python'}
-[0.000478] (-) EventReactorShutdown: {}

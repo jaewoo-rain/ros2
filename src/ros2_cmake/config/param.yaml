@@ -1,0 +1,5 @@
+ros2_cmake: # namespace
+ client: # node 이름
+   ros__parameters: # ros 파라미터임을 나타냄
+     number1: 5 
+     number2: 20

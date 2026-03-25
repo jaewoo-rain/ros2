@@ -275,6 +275,19 @@ action_client/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/action_client.dir/build.make CMakeFiles/action_client.dir/build
 .PHONY : action_client/fast
 
+#=============================================================================
+# Target rules for targets named param_client
+
+# Build rule for target.
+param_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 param_client
+.PHONY : param_client
+
+# fast build rule for target.
+param_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/param_client.dir/build.make CMakeFiles/param_client.dir/build
+.PHONY : param_client/fast
+
 src/action_client.o: src/action_client.cpp.o
 .PHONY : src/action_client.o
 
@@ -322,6 +335,30 @@ src/action_server.s: src/action_server.cpp.s
 src/action_server.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/action_server.dir/build.make CMakeFiles/action_server.dir/src/action_server.cpp.s
 .PHONY : src/action_server.cpp.s
+
+src/param_client.o: src/param_client.cpp.o
+.PHONY : src/param_client.o
+
+# target to build an object file
+src/param_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/param_client.dir/build.make CMakeFiles/param_client.dir/src/param_client.cpp.o
+.PHONY : src/param_client.cpp.o
+
+src/param_client.i: src/param_client.cpp.i
+.PHONY : src/param_client.i
+
+# target to preprocess a source file
+src/param_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/param_client.dir/build.make CMakeFiles/param_client.dir/src/param_client.cpp.i
+.PHONY : src/param_client.cpp.i
+
+src/param_client.s: src/param_client.cpp.s
+.PHONY : src/param_client.s
+
+# target to generate assembly for a file
+src/param_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/param_client.dir/build.make CMakeFiles/param_client.dir/src/param_client.cpp.s
+.PHONY : src/param_client.cpp.s
 
 src/publisher.o: src/publisher.cpp.o
 .PHONY : src/publisher.o
@@ -436,6 +473,7 @@ help:
 	@echo "... uninstall"
 	@echo "... action_client"
 	@echo "... action_server"
+	@echo "... param_client"
 	@echo "... publisher"
 	@echo "... service_client"
 	@echo "... service_server"
@@ -446,6 +484,9 @@ help:
 	@echo "... src/action_server.o"
 	@echo "... src/action_server.i"
 	@echo "... src/action_server.s"
+	@echo "... src/param_client.o"
+	@echo "... src/param_client.i"
+	@echo "... src/param_client.s"
 	@echo "... src/publisher.o"
 	@echo "... src/publisher.i"
 	@echo "... src/publisher.s"

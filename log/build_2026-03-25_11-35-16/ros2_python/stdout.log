@@ -1,0 +1,32 @@
+running develop
+running egg_info
+creating ros2_python.egg-info
+writing ros2_python.egg-info/PKG-INFO
+writing dependency_links to ros2_python.egg-info/dependency_links.txt
+writing entry points to ros2_python.egg-info/entry_points.txt
+writing requirements to ros2_python.egg-info/requires.txt
+writing top-level names to ros2_python.egg-info/top_level.txt
+writing manifest file 'ros2_python.egg-info/SOURCES.txt'
+reading manifest file 'ros2_python.egg-info/SOURCES.txt'
+writing manifest file 'ros2_python.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jaewoo/ros2_ws/install/ros2_python/lib/python3.10/site-packages/ros2-python.egg-link (link to .)
+Installing action_client script to /home/jaewoo/ros2_ws/install/ros2_python/lib/ros2_python
+Installing action_server script to /home/jaewoo/ros2_ws/install/ros2_python/lib/ros2_python
+Installing ex_pub_node_py script to /home/jaewoo/ros2_ws/install/ros2_python/lib/ros2_python
+Installing ex_sub_node_py script to /home/jaewoo/ros2_ws/install/ros2_python/lib/ros2_python
+Installing param_client script to /home/jaewoo/ros2_ws/install/ros2_python/lib/ros2_python
+Installing service_client script to /home/jaewoo/ros2_ws/install/ros2_python/lib/ros2_python
+Installing service_server script to /home/jaewoo/ros2_ws/install/ros2_python/lib/ros2_python
+
+Installed /home/jaewoo/ros2_ws/build/ros2_python
+running symlink_data
+creating /home/jaewoo/ros2_ws/install/ros2_python/share/ament_index
+creating /home/jaewoo/ros2_ws/install/ros2_python/share/ament_index/resource_index
+creating /home/jaewoo/ros2_ws/install/ros2_python/share/ament_index/resource_index/packages
+symbolically linking /home/jaewoo/ros2_ws/build/ros2_python/resource/ros2_python -> /home/jaewoo/ros2_ws/install/ros2_python/share/ament_index/resource_index/packages
+symbolically linking /home/jaewoo/ros2_ws/build/ros2_python/package.xml -> /home/jaewoo/ros2_ws/install/ros2_python/share/ros2_python
+creating /home/jaewoo/ros2_ws/install/ros2_python/share/ros2_python/launch
+symbolically linking /home/jaewoo/ros2_ws/build/ros2_python/launch/param_launch.py -> /home/jaewoo/ros2_ws/install/ros2_python/share/ros2_python/launch
+creating /home/jaewoo/ros2_ws/install/ros2_python/share/ros2_python/param
+symbolically linking /home/jaewoo/ros2_ws/build/ros2_python/param/param.yaml -> /home/jaewoo/ros2_ws/install/ros2_python/share/ros2_python/param

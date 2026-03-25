@@ -1,17 +1,1 @@
-// generated from rosidl_adapter/resource/srv.idl.em
-// with input from ros2_interface/srv/ExCustomSrv.srv
-// generated code does not contain a copyright notice
-
-
-module ros2_interface {
-  module srv {
-    struct ExCustomSrv_Request {
-      int64 a;
-
-      int64 b;
-    };
-    struct ExCustomSrv_Response {
-      int64 sum;
-    };
-  };
-};
+/home/jaewoo/ros2_ws/build/ros2_interface/rosidl_adapter/ros2_interface/srv/ExCustomSrv.idl

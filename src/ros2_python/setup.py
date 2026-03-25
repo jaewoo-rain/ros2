@@ -1,5 +1,6 @@
 from setuptools import find_packages, setup
-
+from glob import glob
+import os
 package_name = 'ros2_python'
 
 setup(
@@ -7,9 +8,12 @@ setup(
     version='0.0.0',
     packages=find_packages(exclude=['test']),
     data_files=[
-        ('share/ament_index/resource_index/packages',
-            ['resource/' + package_name]),
-        ('share/' + package_name, ['package.xml']),
+       ('share/ament_index/resource_index/packages',
+           ['resource/' + package_name]),
+       ('share/' + package_name, ['package.xml']),
+       ('share/' + package_name + '/launch', glob(os.path.join('launch', '*.py'))),
+       ('share/' + package_name + '/param', glob(os.path.join('param', '*.yaml'))),
+
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -29,7 +33,8 @@ setup(
             'service_server = ros2_python.service_server:main',
             'service_client = ros2_python.service_client:main',
             'action_server = ros2_python.action_server:main',
-            'action_client = ros2_python.action_client:main'
+            'action_client = ros2_python.action_client:main',
+            'param_client = ros2_python.param_client:main',
         ],
     },
 )

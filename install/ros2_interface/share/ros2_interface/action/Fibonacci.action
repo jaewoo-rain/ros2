@@ -1,10 +1,1 @@
-# Goal
-int32 order
-
----
-# Result
-int32[] sequence
-
----
-# Feedback
-int32[] partial_sequence
+/home/jaewoo/ros2_ws/src/ros2_interface/action/Fibonacci.action

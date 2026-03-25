@@ -37,6 +37,11 @@ ament_target_dependencies(action_server rclcpp ros2_interface rclcpp_action)
 add_executable(action_client src/action_client.cpp)
 ament_target_dependencies(action_client rclcpp ros2_interface rclcpp_action)
 
+
+# === parameter === #
+add_executable(param_client src/param_client.cpp)
+ament_target_dependencies(param_client rclcpp ros2_interface)
+
 # 빌드된 실행파일을 install 폴더에 복사해서 ROS2가 실행할 수 있게 해라
 install(TARGETS
   # topic 실행 파일 이름
@@ -48,9 +53,18 @@ install(TARGETS
   # action
   action_server
   action_client
+  # launch-param-service
+  param_client
+
   DESTINATION lib/${PROJECT_NAME}
 )
 
+# launch file
+install(DIRECTORY
+  launch
+  config
+  DESTINATION share/${PROJECT_NAME}
+)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)

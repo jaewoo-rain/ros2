@@ -1,2 +1,1 @@
-int64 a
-int64 b
+/home/jaewoo/ros2_ws/build/ros2_interface/rosidl_cmake/srv/ExCustomSrv_Request.msg
