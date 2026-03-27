@@ -1,0 +1,37 @@
+[0.325s] Invoking command in '/home/jaewoo/ros2_ws/src/ros2_tf': PYTHONPATH=/home/jaewoo/ros2_ws/build/ros2_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaewoo/ros2_ws/install/ros2_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_tf build --build-base /home/jaewoo/ros2_ws/build/ros2_tf/build install --record /home/jaewoo/ros2_ws/build/ros2_tf/install.log --single-version-externally-managed install_data
+[0.420s] running egg_info
+[0.420s] creating ../../build/ros2_tf/ros2_tf.egg-info
+[0.421s] writing ../../build/ros2_tf/ros2_tf.egg-info/PKG-INFO
+[0.421s] writing dependency_links to ../../build/ros2_tf/ros2_tf.egg-info/dependency_links.txt
+[0.421s] writing entry points to ../../build/ros2_tf/ros2_tf.egg-info/entry_points.txt
+[0.421s] writing requirements to ../../build/ros2_tf/ros2_tf.egg-info/requires.txt
+[0.421s] writing top-level names to ../../build/ros2_tf/ros2_tf.egg-info/top_level.txt
+[0.421s] writing manifest file '../../build/ros2_tf/ros2_tf.egg-info/SOURCES.txt'
+[0.422s] reading manifest file '../../build/ros2_tf/ros2_tf.egg-info/SOURCES.txt'
+[0.422s] writing manifest file '../../build/ros2_tf/ros2_tf.egg-info/SOURCES.txt'
+[0.422s] running build
+[0.422s] running build_py
+[0.422s] creating /home/jaewoo/ros2_ws/build/ros2_tf/build
+[0.422s] creating /home/jaewoo/ros2_ws/build/ros2_tf/build/lib
+[0.422s] creating /home/jaewoo/ros2_ws/build/ros2_tf/build/lib/ros2_tf
+[0.422s] copying ros2_tf/tf2_static_broadcaster.py -> /home/jaewoo/ros2_ws/build/ros2_tf/build/lib/ros2_tf
+[0.422s] copying ros2_tf/__init__.py -> /home/jaewoo/ros2_ws/build/ros2_tf/build/lib/ros2_tf
+[0.422s] running install
+[0.422s] running install_lib
+[0.423s] creating /home/jaewoo/ros2_ws/install/ros2_tf/lib/python3.10/site-packages/ros2_tf
+[0.423s] copying /home/jaewoo/ros2_ws/build/ros2_tf/build/lib/ros2_tf/tf2_static_broadcaster.py -> /home/jaewoo/ros2_ws/install/ros2_tf/lib/python3.10/site-packages/ros2_tf
+[0.423s] copying /home/jaewoo/ros2_ws/build/ros2_tf/build/lib/ros2_tf/__init__.py -> /home/jaewoo/ros2_ws/install/ros2_tf/lib/python3.10/site-packages/ros2_tf
+[0.423s] byte-compiling /home/jaewoo/ros2_ws/install/ros2_tf/lib/python3.10/site-packages/ros2_tf/tf2_static_broadcaster.py to tf2_static_broadcaster.cpython-310.pyc
+[0.423s] byte-compiling /home/jaewoo/ros2_ws/install/ros2_tf/lib/python3.10/site-packages/ros2_tf/__init__.py to __init__.cpython-310.pyc
+[0.423s] running install_data
+[0.423s] creating /home/jaewoo/ros2_ws/install/ros2_tf/share/ament_index
+[0.423s] creating /home/jaewoo/ros2_ws/install/ros2_tf/share/ament_index/resource_index
+[0.423s] creating /home/jaewoo/ros2_ws/install/ros2_tf/share/ament_index/resource_index/packages
+[0.423s] copying resource/ros2_tf -> /home/jaewoo/ros2_ws/install/ros2_tf/share/ament_index/resource_index/packages
+[0.423s] copying package.xml -> /home/jaewoo/ros2_ws/install/ros2_tf/share/ros2_tf
+[0.423s] running install_egg_info
+[0.424s] Copying ../../build/ros2_tf/ros2_tf.egg-info to /home/jaewoo/ros2_ws/install/ros2_tf/lib/python3.10/site-packages/ros2_tf-0.0.0-py3.10.egg-info
+[0.424s] running install_scripts
+[0.433s] Installing tf2_static_broadcaster script to /home/jaewoo/ros2_ws/install/ros2_tf/lib/ros2_tf
+[0.433s] writing list of installed files to '/home/jaewoo/ros2_ws/build/ros2_tf/install.log'
+[0.442s] Invoked command in '/home/jaewoo/ros2_ws/src/ros2_tf' returned '0': PYTHONPATH=/home/jaewoo/ros2_ws/build/ros2_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaewoo/ros2_ws/install/ros2_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_tf build --build-base /home/jaewoo/ros2_ws/build/ros2_tf/build install --record /home/jaewoo/ros2_ws/build/ros2_tf/install.log --single-version-externally-managed install_data

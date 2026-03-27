@@ -1,0 +1,5 @@
+[console_scripts]
+tf2_broadcaster = ros2_tf.tf2_broadcaster:main
+tf2_listener = ros2_tf.tf2_listener:main
+tf2_static_broadcaster = ros2_tf.tf2_static_broadcaster:main
+

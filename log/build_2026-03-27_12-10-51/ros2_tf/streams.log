@@ -1,0 +1,23 @@
+[0.263s] Invoking command in '/home/jaewoo/ros2_ws/src/ros2_tf': PYTHONPATH=/home/jaewoo/ros2_ws/build/ros2_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaewoo/ros2_ws/install/ros2_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_tf build --build-base /home/jaewoo/ros2_ws/build/ros2_tf/build install --record /home/jaewoo/ros2_ws/build/ros2_tf/install.log --single-version-externally-managed install_data
+[0.358s] running egg_info
+[0.359s] writing ../../build/ros2_tf/ros2_tf.egg-info/PKG-INFO
+[0.359s] writing dependency_links to ../../build/ros2_tf/ros2_tf.egg-info/dependency_links.txt
+[0.359s] writing entry points to ../../build/ros2_tf/ros2_tf.egg-info/entry_points.txt
+[0.359s] writing requirements to ../../build/ros2_tf/ros2_tf.egg-info/requires.txt
+[0.359s] writing top-level names to ../../build/ros2_tf/ros2_tf.egg-info/top_level.txt
+[0.360s] reading manifest file '../../build/ros2_tf/ros2_tf.egg-info/SOURCES.txt'
+[0.360s] writing manifest file '../../build/ros2_tf/ros2_tf.egg-info/SOURCES.txt'
+[0.360s] running build
+[0.360s] running build_py
+[0.360s] running install
+[0.360s] running install_lib
+[0.361s] running install_data
+[0.361s] running install_egg_info
+[0.362s] removing '/home/jaewoo/ros2_ws/install/ros2_tf/lib/python3.10/site-packages/ros2_tf-0.0.0-py3.10.egg-info' (and everything under it)
+[0.362s] Copying ../../build/ros2_tf/ros2_tf.egg-info to /home/jaewoo/ros2_ws/install/ros2_tf/lib/python3.10/site-packages/ros2_tf-0.0.0-py3.10.egg-info
+[0.362s] running install_scripts
+[0.371s] Installing tf2_broadcaster script to /home/jaewoo/ros2_ws/install/ros2_tf/lib/ros2_tf
+[0.371s] Installing tf2_listener script to /home/jaewoo/ros2_ws/install/ros2_tf/lib/ros2_tf
+[0.371s] Installing tf2_static_broadcaster script to /home/jaewoo/ros2_ws/install/ros2_tf/lib/ros2_tf
+[0.371s] writing list of installed files to '/home/jaewoo/ros2_ws/build/ros2_tf/install.log'
+[0.380s] Invoked command in '/home/jaewoo/ros2_ws/src/ros2_tf' returned '0': PYTHONPATH=/home/jaewoo/ros2_ws/build/ros2_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaewoo/ros2_ws/install/ros2_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_tf build --build-base /home/jaewoo/ros2_ws/build/ros2_tf/build install --record /home/jaewoo/ros2_ws/build/ros2_tf/install.log --single-version-externally-managed install_data

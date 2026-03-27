@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/ros2_tf/ros2_tf.egg-info
+writing ../../build/ros2_tf/ros2_tf.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros2_tf/ros2_tf.egg-info/dependency_links.txt
+writing entry points to ../../build/ros2_tf/ros2_tf.egg-info/entry_points.txt
+writing requirements to ../../build/ros2_tf/ros2_tf.egg-info/requires.txt
+writing top-level names to ../../build/ros2_tf/ros2_tf.egg-info/top_level.txt
+writing manifest file '../../build/ros2_tf/ros2_tf.egg-info/SOURCES.txt'
+reading manifest file '../../build/ros2_tf/ros2_tf.egg-info/SOURCES.txt'
+writing manifest file '../../build/ros2_tf/ros2_tf.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jaewoo/ros2_ws/build/ros2_tf/build
+creating /home/jaewoo/ros2_ws/build/ros2_tf/build/lib
+creating /home/jaewoo/ros2_ws/build/ros2_tf/build/lib/ros2_tf
+copying ros2_tf/tf2_static_broadcaster.py -> /home/jaewoo/ros2_ws/build/ros2_tf/build/lib/ros2_tf
+copying ros2_tf/__init__.py -> /home/jaewoo/ros2_ws/build/ros2_tf/build/lib/ros2_tf
+running install
+running install_lib
+creating /home/jaewoo/ros2_ws/install/ros2_tf/lib/python3.10/site-packages/ros2_tf
+copying /home/jaewoo/ros2_ws/build/ros2_tf/build/lib/ros2_tf/tf2_static_broadcaster.py -> /home/jaewoo/ros2_ws/install/ros2_tf/lib/python3.10/site-packages/ros2_tf
+copying /home/jaewoo/ros2_ws/build/ros2_tf/build/lib/ros2_tf/__init__.py -> /home/jaewoo/ros2_ws/install/ros2_tf/lib/python3.10/site-packages/ros2_tf
+byte-compiling /home/jaewoo/ros2_ws/install/ros2_tf/lib/python3.10/site-packages/ros2_tf/tf2_static_broadcaster.py to tf2_static_broadcaster.cpython-310.pyc
+byte-compiling /home/jaewoo/ros2_ws/install/ros2_tf/lib/python3.10/site-packages/ros2_tf/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/jaewoo/ros2_ws/install/ros2_tf/share/ament_index
+creating /home/jaewoo/ros2_ws/install/ros2_tf/share/ament_index/resource_index
+creating /home/jaewoo/ros2_ws/install/ros2_tf/share/ament_index/resource_index/packages
+copying resource/ros2_tf -> /home/jaewoo/ros2_ws/install/ros2_tf/share/ament_index/resource_index/packages
+copying package.xml -> /home/jaewoo/ros2_ws/install/ros2_tf/share/ros2_tf
+running install_egg_info
+Copying ../../build/ros2_tf/ros2_tf.egg-info to /home/jaewoo/ros2_ws/install/ros2_tf/lib/python3.10/site-packages/ros2_tf-0.0.0-py3.10.egg-info
+running install_scripts
+Installing tf2_static_broadcaster script to /home/jaewoo/ros2_ws/install/ros2_tf/lib/ros2_tf
+writing list of installed files to '/home/jaewoo/ros2_ws/build/ros2_tf/install.log'
